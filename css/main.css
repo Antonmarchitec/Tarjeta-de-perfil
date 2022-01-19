@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+/*
+## Colors
+
+### Primary
+
+Dark cyan: hsl(185, 75%, 39%)
+Very dark desaturated blue: hsl(229, 23%, 23%)
+Dark grayish blue: hsl(227, 10%, 46%)
+
+### Neutral
+
+Dark gray: hsl(0, 0%, 59%)
+*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.CON_BASE {
+  width: 100%;
+  max-width: 1440px;
+  height: 100vh;
+  background: #19a2ae;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+.CON_BASE .caja {
+  width: 280px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 50px #6a6f81;
+  border: 1px solid grey;
+  position: relative;
+  z-index: 100;
+}
+.CON_BASE .caja .sec1 {
+  width: 100%;
+  height: 100px;
+  background-image: url(../images/bg-pattern-card.svg);
+  background-size: 100% 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+.CON_BASE .caja .logo {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-image: url(../images/image-victor.jpg);
+  background-size: 100% 100%;
+  position: absolute;
+  left: calc(50% - 47px);
+  top: 60px;
+}
+.CON_BASE .caja .sec2 {
+  width: 100%;
+  padding: 5px 0px;
+  background: white;
+  border-radius: 0px 0px 10px 10px;
+}
+.CON_BASE .caja .sec2 .nombre {
+  margin-top: 60px;
+  text-align: center;
+  color: #2d3248;
+  font-size: 18px;
+  font-weight: 700;
+}
+.CON_BASE .caja .sec2 .nombre .span {
+  color: #969696;
+  font-weight: 700;
+}
+.CON_BASE .caja .sec2 .london {
+  text-align: center;
+  color: #969696;
+  font-weight: 400;
+}
+.CON_BASE .caja .sec2 .bloque {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 3px 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.CON_BASE .caja .sec2 .bloque .b1 .number {
+  font-size: 17px;
+  color: #2d3248;
+  font-weight: 700;
+}
+.CON_BASE .caja .sec2 .bloque .b1 .Fulinwait {
+  color: #969696;
+  font-size: 14px;
+  font-weight: 400;
+}
+.CON_BASE .top {
+  margin-top: -300px;
+  margin-left: -200px;
+  width: 750px;
+  height: 650px;
+  background-image: url(../images/bg-pattern-top.svg);
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.CON_BASE .bottom {
+  margin-bottom: -300px;
+  margin-right: -200px;
+  width: 750px;
+  height: 650px;
+  background-image: url(../images/bg-pattern-top.svg);
+  background-size: 100% 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+@media (min-width: 20px) and (max-width: 980px) {
+  .CON_BASE .top {
+    margin-top: -200px;
+    margin-left: -500px;
+    width: 700px;
+    height: 490px;
+  }
+  .CON_BASE .bottom {
+    margin-bottom: -200px;
+    margin-right: -500px;
+    width: 700px;
+    height: 490px;
+  }
+}
+/*
+## Colors
+
+### Primary
+
+Dark cyan: hsl(185, 75%, 39%)
+Very dark desaturated blue: hsl(229, 23%, 23%)
+Dark grayish blue: hsl(227, 10%, 46%)
+
+### Neutral
+
+Dark gray: hsl(0, 0%, 59%)
+*/
+
+/*# sourceMappingURL=main.css.map */
